@@ -100,6 +100,17 @@ p {
 .img-border {
   border: 2px solid var(--branding-color);
 }
+.social {
+  color: var(--branding-color);
+}
+.content a {
+  color: #272142;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 860px) {
   h1 {
