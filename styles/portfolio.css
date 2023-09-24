@@ -30,6 +30,20 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.btn-outline {
+  border: 1px solid #272142;
+  color: white;
+}
+.navbar {
+  background-color: var(--branding-color);
+  color: #272142;
+}
+
+.logo {
+  max-width: 90px;
+  max-height: 50px;
+}
+
 .hero {
   background: var(--primary-color);
   text-align: center;
@@ -47,20 +61,6 @@ p {
   font-weight: normal;
   font-size: 24px;
   line-height: 1.5;
-}
-
-.btn-outline {
-  border: 1px solid #272142;
-  color: white;
-}
-.navbar {
-  background-color: var(--branding-color);
-  color: #272142;
-}
-
-.logo {
-  max-width: 90px;
-  max-height: 50px;
 }
 
 .content-container {
@@ -89,6 +89,15 @@ p {
 .content p {
   font-size: 14px;
 }
+
+.content a {
+  color: #272142;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
@@ -116,14 +125,6 @@ p {
 }
 .social {
   color: var(--branding-color);
-}
-.content a {
-  color: #272142;
-  text-decoration: none;
-}
-
-.content a:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 992px) {
