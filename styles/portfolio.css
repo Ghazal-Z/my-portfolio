@@ -43,7 +43,9 @@ p {
   max-width: 90px;
   max-height: 50px;
 }
-
+.active {
+  color: white !important;
+}
 .hero {
   background: var(--primary-color);
   text-align: center;
