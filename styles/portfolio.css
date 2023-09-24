@@ -49,6 +49,20 @@ p {
   line-height: 1.5;
 }
 
+.btn-outline {
+  border: 1px solid #272142;
+  color: white;
+}
+.navbar {
+  background-color: var(--branding-color);
+  color: #272142;
+}
+
+.logo {
+  max-width: 90px;
+  max-height: 50px;
+}
+
 .content-container {
   padding: 160px 20px;
 }
@@ -112,7 +126,11 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 992px) {
+  .logo {
+    max-width: 70px;
+    max-height: 40px;
+  }
   h1 {
     font-size: 45px;
     line-height: 56px;
