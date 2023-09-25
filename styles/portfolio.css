@@ -87,13 +87,14 @@ footer .social-links a:hover {
   color: var(--primary-color);
   background: var(--branding-color);
 }
-footer .credit {
+.credit {
   text-decoration: none;
   color: var(--branding-color);
 }
 
-footer .credit:hover {
+.credit:hover {
   text-decoration: underline;
+  color: var(--branding-color);
 }
 
 .hero {
