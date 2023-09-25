@@ -25,7 +25,12 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Ghazal Ziadlou is a front-end developer, based in Iran.
+     This is her professional portfolio webpage."
+    />
+    <title>Front-end developer - Ghazal Ziadlou</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -44,28 +49,40 @@
         <a class="navbar-brand" href="/index.html"
           ><img
             src="images/logo.jpg"
-            alt="logo"
+            alt="Ghazal Logo"
+            title="Homepage"
             class="d-none d-lg-block logo rounded" />
           <img
             src="images/logo-small.jpg"
-            alt="logo-small"
+            alt="Ghazal Logo"
+            title="Homepage"
             class="d-block d-lg-none logo rounded"
         /></a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a
+                class="nav-link active"
+                title="Homepage"
+                aria-current="page"
+                href="/index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" href="/about.html" title="About Ghazal"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
+              <a class="nav-link" href="/work.html" title="Ghazal's work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact Ghazal"
+                >Contact</a
+              >
             </li>
           </ul>
           <span class="navbar-text d-none d-lg-block">
@@ -80,7 +97,9 @@
       <h1>Ghazal Ziadlou</h1>
       <h2 class="mb-5">Front-end developer based in Iran</h2>
       <div>
-        <a href="#" class="btn btn-branding">Get Started</a>
+        <a href="/contact.html" title="Contact me" class="btn btn-branding"
+          >Get Started</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Here are some of my favorite projects!</p>
@@ -90,7 +109,7 @@
           <img
             src="images/piano.PNG"
             class="img-fluid rounded img-border"
-            alt="piano-project"
+            alt="Piano project preview"
           />
         </div>
         <div class="col">
@@ -102,7 +121,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="Piano project"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -116,14 +140,19 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="Weather project"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/weather.PNG"
             class="img-fluid rounded img-border"
-            alt="weather-app"
+            alt="Weather project preview"
           />
         </div>
       </div>
@@ -135,22 +164,47 @@
           <p class="text-muted">Let's work together</p>
         </div>
         <div>
-          <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+          <a
+            href="/contact.html"
+            title="Contact Ghazal"
+            class="btn btn-branding mt-3"
+            >Contact me</a
+          >
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a href="mailto:g.ziadloo@gmail.com" class="email-link"
+        <a
+          href="mailto:g.ziadloo@gmail.com"
+          title="Email Ghazal"
+          class="email-link"
           >g.ziadloo@gmail.com</a
         >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/Ghazal-Z" target="_blank"
+        <a
+          href="https://github.com/Ghazal-Z"
+          title="GitHub Profile"
+          target="_blank"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="https://ir.linkedin.com/in/ghazal-ziadlou" target="_blank"
+        <a
+          href="https://ir.linkedin.com/in/ghazal-ziadlou"
+          title="LinkedIn Profile"
+          target="_blank"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
+      <p class="text-center mt-5">
+        🙌This project was coded by Ghazal Ziadlou, and it is
+        <a
+          class="credit"
+          href="https://github.com/Ghazal-Z"
+          title="GitHub Profile"
+          target="_blank"
+        >
+          open-sourced</a
+        >
+      </p>
     </footer>
   </body>
 </html>

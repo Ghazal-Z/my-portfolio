@@ -87,10 +87,19 @@ footer .social-links a:hover {
   color: var(--primary-color);
   background: var(--branding-color);
 }
+footer .credit {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+footer .credit:hover {
+  text-decoration: underline;
+}
+
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .hero p {
   font-size: 36px;
