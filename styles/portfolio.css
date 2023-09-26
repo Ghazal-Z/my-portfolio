@@ -152,6 +152,15 @@ footer .social-links a:hover {
 .content a:hover {
   text-decoration: underline;
 }
+
+.content-about a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.content-about a:hover {
+  color: black !important;
+}
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
